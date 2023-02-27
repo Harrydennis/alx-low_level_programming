@@ -1,3 +1,8 @@
+/*
+ * File: 1-swap.c
+ * Auth: harry dennis
+ */
+
 #include "main.h"
 /**
  * swap_int - swaps the value of two integers
@@ -6,9 +11,7 @@
  */
 void swap_int(int *a, int *b);
 {
-	int m;
-
-	m = *a;
+	int tmp = *a;
 	*a = *b;
-	*b = m;
+	*b = tmp;
 }
